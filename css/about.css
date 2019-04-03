@@ -1,0 +1,293 @@
+@font-face {
+font-family: ayita;
+src: url('../fonts/AyitaPro-SemiBold.ttf');
+     
+}
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot');
+  src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.svg#demo-icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face{
+    src:url('../fonts/JacquesFrancois-Regular.ttf');
+    font-family:'JacquesFrancois-Regular';
+}
+@font-face {
+font-family:latolig;
+src: url('../fonts/Lato-LigIta.ttf');
+
+}
+@font-face {
+font-family:lato;
+src: url('../fonts/Lato-Lig.ttf');
+     
+}
+@font-face {
+font-family:latobold;
+src: url('../fonts/Lato-Bold.ttf');
+     
+}
+@font-face{
+    src:url('../fonts/Electrolize-Regular.ttf');
+    font-family:'Electrolize';
+}
+@font-face {
+font-family:latobold;
+src: url('../fonts/Lato-Bold.ttf');
+     
+}
+@font-face {
+font-family:latoreg;
+src: url('../fonts/Lato-RegIta.ttf');
+     
+}
+@font-face {
+font-family:latolta;
+src: url('../fonts/Lato-LigIta.ttf');
+     
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:myFirstFont;
+    width:100%; background: url(../stripes.png) ;
+}
+
+body:before {
+          content: "";
+          position: fixed;
+          top: -10px;
+          left: 0;
+          width: 100%;
+          height: 10px;
+
+          -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+                         box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
+          z-index: 100;
+}
+#contain{
+    width:480px;
+    height:150px;
+    margin-left: 820px;
+    margin-top:-144px;
+
+}
+
+#headingName{
+    margin-left: 200px;
+    margin-top:-200px;
+}
+.nav{
+
+    width:100px;
+    height:90px;
+    float:left;
+    margin-top:75px;
+
+}
+li{
+    border-left: 1px solid #cccccc;
+    padding-left: 20px;
+    margin-left: -20px;
+    list-style-type: none;
+    height:30px;
+    line-height: 30px;
+    color: black;  
+    margin-top:0px;
+    opacity:0.7; 
+    margin-left: 0px;
+}
+a:hover{
+    color: #666600;
+}
+a:active{
+    color: grey;
+}
+a:visited{
+    color: indigo;
+}
+ul{
+    float:left;
+}
+a{  
+    text-decoration:none;
+    
+    color: black;
+}
+
+
+img1{
+    margin-left:80px;
+    margin-top: 80px;  
+}
+
+#slideshow{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+/* Body Menu */
+
+#body{
+    margin-top:30px;
+    width:1120px;
+    border-top:2px solid rgb(74,5,34);
+    margin-left:70px;
+}
+
+#footer{
+    font-family: latobold;
+    clear: both;
+    width:1120px;
+    padding-top: 10px;
+    border-top:2px solid rgb(74,5,34);
+    margin-left:70px;
+}
+.nav a {
+    font-family: latobold;
+}
+.links{
+
+    color: #9999ff;
+    border-right: #cccccc solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.links:hover {
+  -webkit-transform:rotate(360deg);
+}
+.navbar{
+    float: right;
+    color: #9999ff;
+    border-right: #cccccc solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.navbar:hover{
+    color: #666600;
+}
+.navbar:active{
+    color: grey;
+}
+.navbar:visited{
+    color: indigo;
+}
+
+
+
+.content{
+    font-family: latolig;
+    width:765px;
+    font-size: 15px;
+    margin-top:30px;
+}
+.content label{
+ font-size:40px;
+    color:rgb(74,5,34);
+    padding-left:10px;
+    padding-top:10px;
+    font-size: 35px;
+    font-family:'Electrolize';
+  background: -webkit-linear-gradient(red, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.line{
+    width:765px;
+    margin-top:40px;
+    border-top:1px solid rgb(74,5,34);
+}
+#img{
+    width:765px;
+    height:300px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 5px 5px 5px grey;
+}
+#textPlace{
+    float: left;
+    margin-top: 20px;
+    width: 765px;
+}
+#logo{
+    margin-left: 20px;
+    margin-top:20px;
+}
+#navcontain{
+    width: 480px;
+    height:150px;
+    margin-left: 900px;
+    margin-top:-144px;
+}
+
+#info{
+    font-family: Latobold;
+    height: 400px;
+    width: 350px;
+    float: left;
+    font-size: 15px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+#info h3 {
+    font-family:'ayita';
+     font-size: 25px;
+  background: -webkit-linear-gradient(grey, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+
+p{  
+    font-family:'JacquesFrancois-Regular';
+   
+    text-align: justify;
+    width: 300px;
+}
+.navlink{
+    text-decoration: underline;
+    color: #009999;
+}
+.completeData{
+    text-align: justify;
+    font-size: 20px;
+    width: 650px;
+    padding: 20px 20px 20px 20px;
+}
+#rit {
+  font-family: ayita;
+  position: absolute;
+  margin-left: 90%;
+  margin-top: 1%;
+  text-align: center;
+}
+#logo1{
+  opacity: 1;
+  -webkit-transition: 1s;
+}
+#logo1:hover{
+  opacity: 0.5;
+}
+
+
+

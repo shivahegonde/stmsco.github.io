@@ -1,0 +1,210 @@
+@font-face {
+font-family: myFirstFont;
+src: url('../fonts/AyitaPro-SemiBold.ttf');
+     
+}
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot');
+  src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.svg#demo-icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+font-family:lato;
+src: url('../fonts/Lato-Lig.ttf');
+     
+}
+@font-face {
+font-family:latobold;
+src: url('../fonts/Lato-Bold.ttf');
+     
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:myFirstFont;
+    width:100%; background: url(../img/stripes.png);
+
+}
+body:before {
+          content: "";
+          position: fixed;
+          top: -10px;
+          left: 0;
+          width: 100%;
+          height: 10px;
+
+          -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+              -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+                         box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+
+          z-index: 100;
+}
+#navcontain{
+    width: 480px;
+    height:150px;
+    margin-left: 900px;
+    margin-top:-144px;
+}
+
+#logo{
+    margin-left: 20px;
+    margin-top:20px;
+}
+
+#headingName{
+    margin-left: 200px;
+    margin-top:-200px;
+}
+
+.nav{
+
+    width:100px;
+    height:90px;
+    margin-top:75px;
+
+}
+li{
+    border-left: 1px solid #cccccc;
+    padding-left: 20px;
+    margin-left: -20px;
+    list-style-type: none;
+    height:30px;
+    line-height: 30px;
+    color: black;  
+    margin-top:0px;
+    opacity:0.7; 
+    margin-left: 0px;
+}
+a:hover{
+    color: #666600;
+}
+a:active{
+    color: grey;
+}
+a:visited{
+    color: indigo;
+}
+ul{
+    float:left;
+}
+a{
+    text-decoration:none;
+    font-family: latobold;
+    color: black;
+}
+
+img1{
+    margin-left:80px;
+    margin-top: 80px;  
+}
+
+#slideshow{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+/* Body Menu */
+
+#body{
+    margin-top:30px;
+    width:1120px;
+    border-top:2px solid rgb(74,5,34);
+    margin-left:70px;
+}
+aside{
+    width:500px;
+    height:335px;
+    float: left;
+    margin-right: 70px;
+    background-color: grey;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#quotes{
+
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin-right: 75px;
+    margin-top: 20px;
+}
+#quote{
+
+    height: 150px;
+    width: 530px;
+    color: brown;
+    margin-left: 75px;
+
+}
+
+footer{
+
+    clear: both;
+    width:1120px;
+    padding-top: 10px;
+    border-top:2px solid rgb(74,5,34);
+    margin-left:70px;
+}
+.links{
+    color: #9999ff;
+    border-right: #cccccc solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.navbar{
+    float: right;
+    color: #9999ff;
+    border-right: #cccccc solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.navbar:hover{
+    color: #666600;
+}
+.navbar:active{
+    color: grey;
+}
+.navbar:visited{
+    color: indigo;
+}
+
+
+
+#data{
+font-family: lato;
+    width: 530px;
+    margin-left: 75px;
+    text-align: justify;
+    font-size: 20px;
+}
+#rit {
+  position: absolute;
+  margin-left: 30%;
+  margin-right: auto;
+  margin-top: 10px;
+}
+#logo1{
+  opacity: 1;
+  -webkit-transition: 1s;
+}
+#logo1:hover{
+  opacity: 0.5;
+}
